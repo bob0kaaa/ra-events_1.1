@@ -1,0 +1,15 @@
+.list{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.item-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img{
+	object-fit: cover;
+	object-position: center center;
+	
+}
